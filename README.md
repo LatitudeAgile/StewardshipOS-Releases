@@ -13,7 +13,8 @@ may tuck some files under "Show all assets".
 | Windows | `StewardshipOS-<version>-win-setup.exe` (installs for you only; no administrator rights needed) |
 | Mac with Apple silicon (M1 or later) | `StewardshipOS-<version>-mac-arm64.dmg` |
 | Mac with Intel | `StewardshipOS-<version>-mac-x64.dmg` |
-| Linux (64-bit) | `StewardshipOS-<version>-linux-x86_64.AppImage` (runs without installing) |
+| Linux on Intel or AMD (most PCs) | `StewardshipOS-<version>-linux-x64.AppImage` (runs without installing; 1.2.0's is `-linux-x86_64`) |
+| Linux on ARM (Raspberry Pi, ARM laptops) | `StewardshipOS-<version>-linux-arm64.AppImage` (from the release after 1.2.0) |
 
 On a Mac, open the `.dmg` and drag StewardshipOS to Applications.
 
